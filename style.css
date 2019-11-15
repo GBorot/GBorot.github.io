@@ -1,22 +1,12 @@
 body {
-  /* background: #f7f9fc; */
-  /* background: transparent; */
   color: #575f7d;
   font-family: "Lora", serif;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: lighter;
   margin: 0;
   height: 100vh;
+  letter-spacing: 4px;
 }
-/*
-  body,
-  canvas {
-  margin: 0;
-  overflow: hidden;
-  background-color: black;
-  /* width: 100%;
-  height: 100vh;
-  } */
 
 section.background {
   box-sizing: border-box;
@@ -29,7 +19,9 @@ section.background {
 canvas {
   display: block;
   vertical-align: bottom;
-} /* ---- particles.js container ---- */
+}
+
+/* ---- particles.js container ---- */
 
 #particles-js {
   background-color: #1e1b1b;
@@ -79,9 +71,7 @@ canvas {
 }
 /* end of the new canvas */
 
-/* .canvas-bg {
-  background: -webkit-canvas(animation) no-repeat 50% 50%;
-  } */
+/* styling texts */
 
 h1,
 h2,
@@ -111,7 +101,7 @@ a:hover {
   color: #eee;
 }
 
-/* Custom design with class (99% of your design) */
+/* containers and media */
 .container {
   width: 700px;
   margin: 40px auto;
@@ -141,15 +131,12 @@ a:hover {
 }
 
 .card-white {
-  /* background-color: white; */
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  /* border: 2px solid red; */
   border-radius: 4px;
   margin: auto;
   text-align: center;
   width: 80%;
-  /* margin: 0 auto; */
 }
 
 .img-center {
@@ -168,16 +155,6 @@ a:hover {
   height: 150px;
   cursor: pointer;
 }
-/* .btn-blue {
-  background-color: #585f7b;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-}
-.btn-blue:hover {
-  background-color: white;
-  color: #585f7b;
-} */
 
 .btn-styled {
   line-height: 50px;
@@ -253,13 +230,12 @@ a:hover {
   color: black;
 }
 
-/* Design adjustments using id (1% design remaining) */
-
 #introduction p {
   margin-bottom: 40px;
 }
 
-/*  */
+/* moving effect on click */
+
 .dropdown {
   position: absolute;
   padding: 20px;
@@ -279,14 +255,11 @@ a:hover {
 .move {
   transform: translateY(15%);
   transform: translateX(-50%);
-  /* transition: transform 2s; */
 }
-/* just trying something */
 
 #introduction {
   display: none;
   margin: auto;
-  /* opacity: 1; */
 }
 
 .fade {
